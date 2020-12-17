@@ -1,60 +1,32 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-blas=1.0=mkl
-brotlipy=0.7.0=py38he774522_1000
-ca-certificates=2020.10.14=0
-certifi=2020.6.20=py38_0
-cffi=1.14.3=py38h7a1dbc1_0
-chardet=3.0.4=py38_1003
-click=7.1.2=py_0
-cryptography=3.1.1=py38h7a1dbc1_0
-cudatoolkit=10.2.89=h74a9793_1
-flask=1.1.2=py_0
-flask-cors=3.0.9=pypi_0
-freetype=2.10.4=hd328e21_0
-gunicorn=20.0.4=pypi_0
-idna=2.10=py_0
-intel-openmp=2020.2=254
-itsdangerous=1.1.0=py_0
-jinja2=2.11.2=py_0
-jpeg=9b=hb83a4c4_2
-libpng=1.6.37=h2a8f88b_0
-libtiff=4.1.0=h56a325e_1
-libuv=1.40.0=he774522_0
-lz4-c=1.9.2=hf4a77e7_3
-markupsafe=1.1.1=py38he774522_0
-mkl=2020.2=256
-mkl-service=2.3.0=py38hb782905_0
-mkl_fft=1.2.0=py38h45dec08_0
-mkl_random=1.1.1=py38h47e9c7a_0
-ninja=1.10.1=py38h7ef1ec2_0
-numpy=1.19.2=py38hadc3359_0
-numpy-base=1.19.2=py38ha3acd2a_0
-olefile=0.46=py_0
-openssl=1.1.1h=he774522_0
-pillow=8.0.1=py38h4fa10fc_0
-pip=20.2.4=py38haa95532_0
-pycparser=2.20=py_2
-pyopenssl=19.1.0=py_1
-pysocks=1.7.1=py38_0
-python=3.8.5=h5fd99cc_1
-pytorch=1.7.0=py3.8_cuda102_cudnn7_0
-requests=2.24.0=py_0
-setuptools=50.3.1=py38haa95532_1
-six=1.15.0=py38haa95532_0
-sqlite=3.33.0=h2a8f88b_0
-tk=8.6.10=he774522_0
-torchaudio=0.7.0=py38
-torchvision=0.8.1=py38_cu102
-typing_extensions=3.7.4.3=py_0
-urllib3=1.25.11=py_0
-vc=14.1=h0510ff6_4
-vs2015_runtime=14.16.27012=hf0eaf9b_3
-werkzeug=1.0.1=py_0
-wheel=0.35.1=pyhd3eb1b0_0
-win_inet_pton=1.1.0=py38_0
-wincertstore=0.2=py38_0
-xz=5.2.5=h62dcd97_0
-zlib=1.2.11=h62dcd97_4
-zstd=1.4.5=h04227a9_0
+brotlipy==0.7.0
+certifi==2020.6.20
+cffi @ file:///C:/ci/cffi_1600699246375/work
+chardet==3.0.4
+click==7.1.2
+cryptography @ file:///C:/ci/cryptography_1601046905460/work
+Flask==1.1.2
+Flask-Cors==3.0.9
+gunicorn==20.0.4
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+olefile==0.46
+Pillow @ file:///C:/ci/pillow_1603823068645/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
+PySocks==1.7.1
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+six @ file:///C:/ci/six_1605187374963/work
+torch==1.7.0
+torchaudio==0.7.0
+torchvision==0.8.1
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1598376058250/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
+Werkzeug==1.0.1
+win-inet-pton==1.1.0
+wincertstore==0.2
