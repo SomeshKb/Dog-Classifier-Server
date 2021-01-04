@@ -88,7 +88,7 @@ def predict():
         else:
             return jsonify({'class_name': "Not a dog image"})
 
-@app.route('/ping', methods=['GET'])
+@app.route('/health', methods=['GET'])
 def ping():
-    return "Pinging Model!!"
+    return jsonify({'heath': "healthy"})
 
