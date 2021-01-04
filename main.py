@@ -21,7 +21,7 @@ model = models.resnet50(pretrained = True)
 num_classes = 133
 
 model.fc = nn.Linear(2048, num_classes, bias = True)
-model.load_state_dict(torch.load('classifier.pt'))
+model.load_state_dict(torch.load('classifier.pt', map_location=torch.device('cpu')))
 model.eval()
 
 class_names = ['Affenpinscher',
